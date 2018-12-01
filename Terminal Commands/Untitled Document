@@ -1,0 +1,13 @@
+-Creating a new user
+
+curl -d 'username=User7&password=pass7&email=User7.com&age=13&show_age=t' -X POST http://localhost:3001/newUser
+
+-Login to Postgres database
+
+psql -U resilient
+
+-How to get out of Postgres
+
+ctrl + d
+
+
